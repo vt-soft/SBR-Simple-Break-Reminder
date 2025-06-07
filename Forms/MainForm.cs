@@ -10,15 +10,23 @@ using System.Drawing;
 using System.Windows.Forms.DataVisualization.Charting;
 
 
-// Project information: 
-// Installed NugetPackages:  WinForms Data Visualization - for Charts
-// 
-// Please be aware that I am developer beginner so this code is not perfect and it is probbaly not following all best practices.
-// However I still hope that you will find it useful and that it will help you to create your own application.
-// for more projects please check this site: https://www.vt-soft.com/ 
-//
-// MainForm is the entry point of the application.
-// Enjoy the code! :)
+// *********************************************************************************************************************************
+// *  Project information: 
+// *  Installed NugetPackages:  WinForms Data Visualization - for Charts
+// *
+// *  Please be aware that I am developer beginner so this code is not perfect and it is probbaly not following all best practices.
+// *  However I still hope that you will find it useful and that it will help you to create your own application.
+// *  for more projects please check this site: https://www.vt-soft.com/ 
+// *
+// *  MainForm is the entry point of the application.
+// *  Enjoy the code! :)
+// *
+// *  Copyright(c) 2025, vt-soft
+// *  All rights reserved.
+// *
+// *  This source code is licensed under the MIT-style license found in the
+// *  LICENSE file in the root directory of this source tree. 
+// **********************************************************************************************************************************
 
 
 
