@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="Add new task" xml:space="preserve">
+    <value>Add new task</value>
+    <comment>todo_form_and_add_new_task_form</comment>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="Alarm 1 time [min]:" xml:space="preserve">
+    <value>Alarm 1 time [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 2 time [min]:" xml:space="preserve">
+    <value>Alarm 2 time [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 3 time [min]:" xml:space="preserve">
+    <value>Alarm 3 time [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 4 time [min]:" xml:space="preserve">
+    <value>Alarm 4 time [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="An application which is tracking time you are using your computer and is reminding you to take a break.This application is free for any personal or commercial use." xml:space="preserve">
+    <value>An application which is tracking time you are using your computer and is reminding you to take a break.This application is free for any personal or commercial use.</value>
+    <comment>about_form_01</comment>
+  </data>
+  <data name="Archive task" xml:space="preserve">
+    <value>Archive task</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Archived" xml:space="preserve">
+    <value>Archived</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Archived tasks:" xml:space="preserve">
+    <value>Archived tasks:</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Average stats:" xml:space="preserve">
+    <value>Average stats:</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Break NO" xml:space="preserve">
+    <value>Break NO</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Break YES" xml:space="preserve">
+    <value>Break YES</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Check also these free apps:" xml:space="preserve">
+    <value>Check also these free apps:</value>
+    <comment>about_form_06</comment>
+  </data>
+  <data name="Credits:" xml:space="preserve">
+    <value>Credits:</value>
+    <comment>language_form_02_and_also_in_about_form</comment>
+  </data>
+  <data name="Custom colour" xml:space="preserve">
+    <value>Custom colour</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Daily averages for the last 10 days. Except today." xml:space="preserve">
+    <value>Daily averages for the last 10 days. Except today.</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Daily averages for the last 14 months:" xml:space="preserve">
+    <value>Daily averages for the last 14 months:</value>
+    <comment>statistics_form</comment>
+  </data>
+  <data name="day/days" xml:space="preserve">
+    <value>day/days</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="days before due date." xml:space="preserve">
+    <value>days before due date.</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Due date" xml:space="preserve">
+    <value>Due date</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Due date:" xml:space="preserve">
+    <value>Due date:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Edit task" xml:space="preserve">
+    <value>Edit task</value>
+    <comment>todo_form_and_add_new_task_form</comment>
+  </data>
+  <data name="Emoticons :) (:" xml:space="preserve">
+    <value>Emoticons :) (:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Extra alert for long break" xml:space="preserve">
+    <value>Extra alert for long break</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Finish task" xml:space="preserve">
+    <value>Finish task</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="For more information about this app please check online help page:" xml:space="preserve">
+    <value>For more information about this app please check online help page:</value>
+    <comment>about_form_02</comment>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gray</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Hide priority, tag and status column." xml:space="preserve">
+    <value>Hide priority, tag and status column.</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Icons/flags:" xml:space="preserve">
+    <value>Icons/flags:</value>
+    <comment>about_form_04</comment>
+  </data>
+  <data name="Idle time" xml:space="preserve">
+    <value>Idle time</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Ignored breaks" xml:space="preserve">
+    <value>Ignored breaks</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Ignored breaks [-]" xml:space="preserve">
+    <value>Ignored breaks [-]</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="month/months" xml:space="preserve">
+    <value>month/months</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Name:" xml:space="preserve">
+    <value>Name:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Note:" xml:space="preserve">
+    <value>Note:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Ongoing" xml:space="preserve">
+    <value>Ongoing</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="P" xml:space="preserve">
+    <value>P</value>
+    <comment>todo_form_P_is_abbreviation_for_priority</comment>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Pink</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Pomodoro 4/4" xml:space="preserve">
+    <value>Pomodoro 4/4</value>
+    <comment>settings_form_and_also_alarm_form</comment>
+  </data>
+  <data name="Pomodoro 4/4. Take a long break." xml:space="preserve">
+    <value>Pomodoro 4/4. Take a long break.</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Priority:" xml:space="preserve">
+    <value>Priority:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purple</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Random colour" xml:space="preserve">
+    <value>Random colour</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Recurring" xml:space="preserve">
+    <value>Recurring</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Recurring task:" xml:space="preserve">
+    <value>Recurring task:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Recurring tasks:" xml:space="preserve">
+    <value>Recurring tasks:</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Remind</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Reopen task" xml:space="preserve">
+    <value>Reopen task</value>
+    <comment>todo_form_and_add_new_task_form</comment>
+  </data>
+  <data name="Repeat every" xml:space="preserve">
+    <value>Repeat every</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Reset alarm" xml:space="preserve">
+    <value>Reset alarm</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Run at startup" xml:space="preserve">
+    <value>Run at startup</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Select your language:" xml:space="preserve">
+    <value>Select your language:</value>
+    <comment>language_form_01</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="Show tasks:" xml:space="preserve">
+    <value>Show tasks:</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Sound alarm" xml:space="preserve">
+    <value>Sound alarm</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Sounds:" xml:space="preserve">
+    <value>Sounds:</value>
+    <comment>about_form_05</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistics</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Status:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="T" xml:space="preserve">
+    <value>T</value>
+    <comment>todo_form_T_is_abbreviation_for_task_type</comment>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Tag:" xml:space="preserve">
+    <value>Tag:</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Tasks:" xml:space="preserve">
+    <value>Tasks:</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Today's stats:" xml:space="preserve">
+    <value>Today's stats:</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="ToDo" xml:space="preserve">
+    <value>ToDo</value>
+    <comment>main_form_button</comment>
+  </data>
+  <data name="Total time" xml:space="preserve">
+    <value>Total time</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="week/weeks" xml:space="preserve">
+    <value>week/weeks</value>
+    <comment>add_new_task_form</comment>
+  </data>
+  <data name="Working time" xml:space="preserve">
+    <value>Working time</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Working time, total time [hours]" xml:space="preserve">
+    <value>Working time, total time [hours]</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Yellow</value>
+    <comment>settings_form</comment>
+  </data>
+</root>

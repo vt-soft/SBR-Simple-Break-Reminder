@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Um</value>
+    <comment>main_form_05_button</comment>
+  </data>
+  <data name="Add new task" xml:space="preserve">
+    <value>neue Aufgabe hinzufügen</value>
+    <comment>todo_form_and_add_new_task_form</comment>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>main_form_01_button</comment>
+  </data>
+  <data name="Alarm 1 time [min]:" xml:space="preserve">
+    <value>Alarm 1 Zeit [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 2 time [min]:" xml:space="preserve">
+    <value>Alarm 2 Zeit [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 3 time [min]:" xml:space="preserve">
+    <value>Alarm 3 Zeit [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Alarm 4 time [min]:" xml:space="preserve">
+    <value>Alarm 4 Zeit [min]:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="An application which is tracking time you are using your computer and is reminding you to take a break.This application is free for any personal or commercial use." xml:space="preserve">
+    <value>Eine Anwendung, die die Zeit erfasst, die Sie mit Ihrem Computer verbringen, und Sie daran erinnert, eine Pause einzulegen. Diese Anwendung ist für den persönlichen und kommerziellen Gebrauch kostenlos.</value>
+    <comment>about_form_01</comment>
+  </data>
+  <data name="Archive task" xml:space="preserve">
+    <value>Εργασία αρχειοθέτησης</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Archived" xml:space="preserve">
+    <value>Archived</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Archived tasks:" xml:space="preserve">
+    <value>Αρχειοθετημένες εργασίες:</value>
+    <comment>todo_form</comment>
+  </data>
+  <data name="Average stats:" xml:space="preserve">
+    <value>Durchschnittliche Statistiken:</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blau</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Break NO" xml:space="preserve">
+    <value>Pause NEIN</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Break YES" xml:space="preserve">
+    <value>Pause JA</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Check also these free apps:" xml:space="preserve">
+    <value>Schauen Sie sich auch diese kostenlosen Apps an:</value>
+    <comment>about_form_06</comment>
+  </data>
+  <data name="Credits:" xml:space="preserve">
+    <value>Credits:</value>
+    <comment>language_form_02_and_also_in_about_form</comment>
+  </data>
+  <data name="Custom colour" xml:space="preserve">
+    <value>Benutzerdefinierte Farbe</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Daily averages for the last 10 days. Except today." xml:space="preserve">
+    <value>Tagesdurchschnitte der letzten 10 Tage. Außer heute.</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Daily averages for the last 14 months:" xml:space="preserve">
+    <value>Tagesdurchschnitte der letzten 14 Monate:</value>
+    <comment>statistics_form</comment>
+  </data>
+  <data name="Emoticons :) (:" xml:space="preserve">
+    <value>Emoticons :) (:</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Extra alert for long break" xml:space="preserve">
+    <value>Zusätzlicher Alarm bei längerer Pause</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="For more information about this app please check online help page:" xml:space="preserve">
+    <value>Weitere Informationen zu dieser App finden Sie auf der Online-Hilfeseite:</value>
+    <comment>about_form_02</comment>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Grau</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Grün</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Idle time" xml:space="preserve">
+    <value>Leerlaufzeit</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Ignored breaks" xml:space="preserve">
+    <value>Ignorierte Pausen</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Ignored breaks [-]" xml:space="preserve">
+    <value>Ignorierte Pausen [-]</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+    <comment>main_form_04_button</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Rosa</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Pomodoro 4/4" xml:space="preserve">
+    <value>Pomodoro 4/4</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Pomodoro 4/4. Take a long break." xml:space="preserve">
+    <value>Pomodoro 4/4. Machen Sie eine lange Pause.</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Lila</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Random colour" xml:space="preserve">
+    <value>Zufällige Farbe</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rot</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Reset alarm" xml:space="preserve">
+    <value>Alarm zurücksetzen</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Run at startup" xml:space="preserve">
+    <value>Beim Start ausführen</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Select your language:" xml:space="preserve">
+    <value>Wählen Sie Ihre Sprache:</value>
+    <comment>language_form_01</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+    <comment>main_form_02_button</comment>
+  </data>
+  <data name="Sound alarm" xml:space="preserve">
+    <value>Tonalarm</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiken</value>
+    <comment>main_form_03_button</comment>
+  </data>
+  <data name="Today's stats:" xml:space="preserve">
+    <value>Heute:</value>
+    <comment>alarm_form</comment>
+  </data>
+  <data name="Total time" xml:space="preserve">
+    <value>Gesamtzeit</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Working time" xml:space="preserve">
+    <value>Arbeitszeit</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Working time, total time [hours]" xml:space="preserve">
+    <value>Arbeitszeit, Gesamtzeit [Stunden]</value>
+    <comment>alarm_form_and_also_statistics_form</comment>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Gelb</value>
+    <comment>settings_form</comment>
+  </data>
+  <data name="day/days" xml:space="preserve">
+    <value>Tag/Tage</value>
+  </data>
+  <data name="days before due date." xml:space="preserve">
+    <value>Tage vor Fälligkeitsdatum.</value>
+  </data>
+  <data name="Due date" xml:space="preserve">
+    <value>Fälligkeitsdatum</value>
+  </data>
+  <data name="Due date:" xml:space="preserve">
+    <value>Fälligkeitsdatum:</value>
+  </data>
+  <data name="Edit task" xml:space="preserve">
+    <value>Aufgabe bearbeiten</value>
+  </data>
+  <data name="Finish task" xml:space="preserve">
+    <value>Aufgabe beenden</value>
+  </data>
+  <data name="Hide priority, tag and status column." xml:space="preserve">
+    <value>Prioritäts-, Tag- und Statusspalte ausblenden.</value>
+  </data>
+  <data name="Icons/flags:" xml:space="preserve">
+    <value>Symbole/Flags:</value>
+  </data>
+  <data name="month/months" xml:space="preserve">
+    <value>Monat/Monate</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name:" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notiz</value>
+  </data>
+  <data name="Note:" xml:space="preserve">
+    <value>Notiz:</value>
+  </data>
+  <data name="Ongoing" xml:space="preserve">
+    <value>Laufend</value>
+  </data>
+  <data name="P" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Priority:" xml:space="preserve">
+    <value>Priorität:</value>
+  </data>
+  <data name="Recurring" xml:space="preserve">
+    <value>Wiederkehrend</value>
+  </data>
+  <data name="Recurring task:" xml:space="preserve">
+    <value>Wiederkehrende Aufgabe:</value>
+  </data>
+  <data name="Recurring tasks:" xml:space="preserve">
+    <value>Wiederkehrende Aufgaben:</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Erinnern</value>
+  </data>
+  <data name="Reopen task" xml:space="preserve">
+    <value>Wiedereröffnung Aufgabe</value>
+  </data>
+  <data name="Repeat every" xml:space="preserve">
+    <value>Wiederholen Sie jeden</value>
+  </data>
+  <data name="Show tasks:" xml:space="preserve">
+    <value>Aufgaben zeigen:</value>
+  </data>
+  <data name="Sounds:" xml:space="preserve">
+    <value>Geräusche:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Etikett</value>
+  </data>
+  <data name="Tag:" xml:space="preserve">
+    <value>Etikett:</value>
+  </data>
+  <data name="Tasks:" xml:space="preserve">
+    <value>Aufgaben:</value>
+  </data>
+  <data name="ToDo" xml:space="preserve">
+    <value>Todo</value>
+  </data>
+  <data name="week/weeks" xml:space="preserve">
+    <value>Woche/Wochen</value>
+  </data>
+</root>
