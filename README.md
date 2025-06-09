@@ -14,7 +14,7 @@ Using the application is very intuitive. For more information please visit: http
 
 
 ## Features
-* 4 alarms (timers)
+* 4 adjustable alarms (timers)
 * Pomodoro timer
 * Statistics (daily and annual statistics)
 * Idle time
